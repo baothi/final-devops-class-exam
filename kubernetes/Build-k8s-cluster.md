@@ -45,7 +45,7 @@ sudo sysctl -p
 ```
 ### Initialize the cluster (run only on the master):
 ```
-sudo kubeadm init --pod-network-cidr=10.244.0.0/16
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address {ip add of master node}
 ```
 ### Set up local kubeconfig (run only on the master):
 ```
