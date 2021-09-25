@@ -43,6 +43,8 @@ echo "net.bridge.bridge-nf-call-iptables=1" | sudo tee -a /etc/sysctl.conf
 ```
 sudo sysctl -p
 ```
+trên đây là mình chạy cả 3 con là master và node lẫn node2
+còn lại phía dưới là mình chạy cho master thôi
 ### Initialize the cluster (run only on the master):
 ```
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address {ip add of master node}
