@@ -27,7 +27,7 @@ sudo apt-get update
 ```
 ### Install Docker, kubelet, kubeadm, and kubectl:
 ```
-sudo apt-get install -y docker-ce=5:19.03.12~3-0~ubuntu-bionic kubelet=1.17.8-00 kubeadm=1.17.8-00 kubectl=1.17.8-00
+sudo apt-get install -y docker-ce=5:19.03.12~3-0~ubuntu-bionic kubelet=1.18.5-00 kubeadm=1.18.5-00 kubectl=1.18.5-00
 ```
 ### Hold them at the current version:
 ```
